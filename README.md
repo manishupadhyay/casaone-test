@@ -8,6 +8,7 @@ npm start
 
 # Application View
 
-It starts with first add rules
-creates some fields and enter values and save it. Once saved its stores data in localstorage so even you refresh data form will be there.
+## It starts with first add rules
+## creates some fields and enter values and save it. Once saved its stores data in localstorage so even you refresh data form will be there.
+## With in rule you can add any combination.
 
