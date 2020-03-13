@@ -22,8 +22,8 @@ const Amount = (props) => {
     }
     return (
         <div>
-            <Label type="number" placeholder="please enter min value" labelText="Min Value" name="minValue" value={minValue} onchange={changeHandler}/>
-            <Label type="number" placeholder="please enter max value" labelText="Max Value" name="maxValue" value={maxValue} onchange={changeHandler}/>
+            <Label type="number" placeholder="please enter min value" labelText="Min Amount" name="minValue" value={minValue} onchange={changeHandler}/>
+            <Label type="number" placeholder="please enter max value" labelText="Max Amount" name="maxValue" value={maxValue} onchange={changeHandler}/>
             <Dropdown list={currencyList} onchange={changeHandler} value={selectedCurrency} name="selectedCurrency" />
             <span title="delete rule" className="cross" onClick={() => {deleteComp(compName)}}>X</span>
         </div>

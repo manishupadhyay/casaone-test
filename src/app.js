@@ -16,7 +16,8 @@ class App extends React.Component {
         return(
             <Provider store={store}>
                 <RulesList />
-                <div>
+                <div className="add-rule">
+                    <span className="add-rule-text">Add Rule</span>
                     <AddRule/> 
                 </div>
                 

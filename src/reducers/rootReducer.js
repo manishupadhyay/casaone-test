@@ -11,7 +11,7 @@ export const rootReducer = (state, action) => {
         if (action.payload.index == "root") {
             cloneState.rulesList.push(rule);
         }
-        else {
+        else if (!cloneState.rulesList[index][Object.keys(rule)[0]]) {
             cloneState.rulesList[index] = Object.assign({}, cloneState.rulesList[index], rule);
         }
     }
