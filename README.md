@@ -12,6 +12,7 @@
 ## creates some fields and enter values and save it. Once saved its stores data in localstorage so even you refresh data form will be there.
 ## With in rule you can add any combination.
 
-# Data Strucure to send data can be seen running below command in google --> developer tools --> Console tab
+# How to see data structure
 
+## google --> developer tools --> Console tab
 ## JSON.parse(localStorage.getItem("ruleList"))
