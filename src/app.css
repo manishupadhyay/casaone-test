@@ -1,0 +1,18 @@
+div {
+    margin: 10px 0;
+}
+
+span.cross {
+    display: inline-block;
+    background: grey;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+label, select {
+    margin: 0 10px;
+}
